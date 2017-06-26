@@ -1,0 +1,65 @@
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/ryugoo/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:app:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:app:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:app:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportV42600Alpha1Library
+:app:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:app:prepareComGithubHotchemiPermissionsdispatcher240Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:app:javaPreCompileDebug
+:app:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:app:kaptDebugKotlin UP-TO-DATE
+:app:compileDebugKotlin UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:copyDebugKotlinClasses UP-TO-DATE
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl UP-TO-DATE
+:app:compileReleaseRenderscript UP-TO-DATE
+:app:generateReleaseBuildConfig UP-TO-DATE
+:app:generateReleaseResValues UP-TO-DATE
+:app:generateReleaseResources UP-TO-DATE
+:app:mergeReleaseResources UP-TO-DATE
+:app:processReleaseManifest UP-TO-DATE
+:app:processReleaseResources UP-TO-DATE
+:app:generateReleaseSources UP-TO-DATE
+:app:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:app:javaPreCompileRelease
+:app:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:app:kaptReleaseKotlin UP-TO-DATE
+:app:compileReleaseKotlin UP-TO-DATE
+:app:compileReleaseJavaWithJavac UP-TO-DATE
+:app:copyReleaseKotlinClasses UP-TO-DATE
+:app:lint
+Ran lint on variant debug: 4 issues found
+Ran lint on variant release: 4 issues found
+Wrote HTML report to file:///Users/ryugoo/Workspace/GitHub/Personal/Android/PDKT113/app/build/reports/lint-results.html
+Wrote XML report to file:///Users/ryugoo/Workspace/GitHub/Personal/Android/PDKT113/app/build/reports/lint-results.xml
+:app:lint FAILED
+
+BUILD FAILED
+
+Total time: 3.538 secs
